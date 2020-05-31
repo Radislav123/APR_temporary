@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<!DOCTYPE rwi SYSTEM "rwi.dtd">
+<rwi>
+	<jobCode></jobCode>
+	<title>RGB</title>
+	<summary></summary>
+	<workType></workType>
+	<role></role>
+	<expTime></expTime>
+	<workCell></workCell>
+	<preJob></preJob>
+	<postJob></postJob>
+	<workOrder></workOrder>
+	<revision></revision>
+	<preq>
+		<para></para>
+	</preq>
+	<bom><part id="0">
+			<pnr></pnr>
+			<desc>Устройство полностью</desc>
+			<qty>1</qty>
+		</part>
+		<part id="0.1">
+			<pnr></pnr>
+			<desc>Нижняя панель корпуса</desc>
+			<qty>1</qty>
+		</part>
+		<part id="0.2">
+			<pnr></pnr>
+			<desc>Крышка корпуса</desc>
+			<qty>1</qty>
+		</part>
+		<part id="0.3">
+			<pnr></pnr>
+			<desc>Печатная плата</desc>
+			<qty>1</qty>
+		</part>
+		<part id="0.3.1">
+			<pnr></pnr>
+			<desc>Текстолит</desc>
+			<qty>1</qty>
+		</part>
+		<part id="0.3.2">
+			<pnr>U1</pnr>
+			<desc>PIC16F628A-I/P, Микроконтроллер 8-Бит, PIC, 20МГц, 3.5КБ (2Кx14) Flash, 16 I/O [DIP-18]</desc>
+			<qty>1</qty>
+			<altpnr>PIC16F628A-I/P</altpnr>
+		</part>
+		<part id="0.3.3">
+			<pnr>X1</pnr>
+			<desc>NX3225SA-20MHZ, 20 МГц, 20/20ppm, 16пФ, -40...+85°C, SMD 3.2*2.5*0.55мм, Кварцевый резонатор</desc>
+			<qty>1</qty>
+			<altpnr>NX3225SA-20MHZ</altpnr>
+		</part>
+		<part id="0.3.4">
+			<pnr>SWx (SBx)</pnr>
+			<desc>DS1040-03RN, DIP переключатель 3pin</desc>
+			<qty>1</qty>
+			<altpnr>DS1040-03RN</altpnr>
+		</part>
+		<part id="0.3.5">
+			<pnr>SVx (SAx)</pnr>
+			<desc>DS1040-02RN, DIP переключатель 2pin</desc>
+			<qty>1</qty>
+			<altpnr>DS1040-02RN</altpnr>
+		</part>
+		<part id="0.3.6">
+			<pnr>Cx</pnr>
+			<desc>К10-17Б имп. 22пФ NPO,5%,0805, Конденсатор керамический выводной</desc>
+			<qty>2</qty>
+			<altpnr>К10-17Б</altpnr>
+		</part>
+		<part id="0.3.6.1">
+			<qty>1</qty>
+		</part>
+		<part id="0.3.6.2">
+			<qty>1</qty>
+		</part>
+		<part id="0.3.7">
+			<pnr>Rx</pnr>
+			<desc>0.25Вт 1206 4.7 кОм, 1%, Чип резистор (SMD)</desc>
+			<qty>6</qty>
+			<altpnr>1206</altpnr>
+		</part>
+		<part id="0.3.7.1">
+			<qty>1</qty>
+		</part>
+		<part id="0.3.7.2">
+			<qty>1</qty>
+		</part>
+		<part id="0.3.7.3">
+			<qty>1</qty>
+		</part>
+		<part id="0.3.7.4">
+			<qty>1</qty>
+		</part>
+		<part id="0.3.7.5">
+			<qty>1</qty>
+		</part>
+		<part id="0.3.7.6">
+			<qty>1</qty>
+		</part>
+	</bom>
+	<job id="step91f79faee1c4d42a60d5508fe88790da">
+		<title>RGB</title>
+		<task id="r6c77f740-cbdc-409e-9dda-f598e4163f2d">
+			<title>Сборка</title>
+			<para>Установить Конденсаторы.</para>
+			<para>Установить (X1) Кварцевый резонатор, NX3225SA-20MHZ.</para>
+			<para>Установить (U1) Микроконтроллер 8-Бит, PIC16F628A-I/P.</para>
+			<para>Установить Резисторы.</para>
+			<para>Установить SW2.</para>
+			<para>Установить SW3.</para>
+			<para>Установить Крышка.</para>
+			<para>
+				<xref xrefid="0.1">Нижняя панель корпуса</xref>
+				<xref xrefid="0.2">Крышка корпуса</xref>
+				<xref xrefid="0.3.2">PIC16F628A-I/P, Микроконтроллер 8-Бит, PIC, 20МГц, 3.5КБ (2Кx14) Flash, 16 I/O [DIP-18]</xref>
+				<xref xrefid="0.3.3">NX3225SA-20MHZ, 20 МГц, 20/20ppm, 16пФ, -40...+85°C, SMD 3.2*2.5*0.55мм, Кварцевый резонатор</xref>
+				<xref xrefid="0.3.4">DS1040-03RN, DIP переключатель 3pin</xref>
+				<xref xrefid="0.3.5">DS1040-02RN, DIP переключатель 2pin</xref>
+				<xref xrefid="0.3.6">К10-17Б имп. 22пФ NPO,5%,0805, Конденсатор керамический выводной</xref>
+				<xref xrefid="0.3.7">0.25Вт 1206 4.7 кОм, 1%, Чип резистор (SMD)</xref>
+			</para>
+		</task>
+	</job>
+</rwi>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title></title>
+<link href="res_RAPID_WORK_INSTRUCTIONS/rapid_work_instructions.css" rel="stylesheet">
+<style type="text/css" media="screen">
+body, #procedureTD,  #tblRwiHeader td, #tdtabs, .tblPart{color:#000000; background-color: #FFFFFF; font-size: 13px;}
+#tblRwiHeader td{color:#000000; background-color: #FFFFFF;}
+.divpart, .btnPM{color:#000000; background-color: #FFFFFF; border-color:#000000 !important; font-size: 13px;}
+tr.cellheader td{color:#000000; background-color: #FFFFFF; font-size: 13px; border:1px solid #000000;}
+tr.cellnormal td, tr.celldate td{color:#000000; background-color: #FFFFFF; font-size: 13px; border-color:#000000 !important;}
+.actionstable, #prcTable, .curStepTbl{border-color:#000000 !important;}
+#modeTD, #control_bar{color:#FFFFFF; background-color: #8080C0;}
+#procedureTD{border-color:#E0E0E0 !important;}
+.htab, .tab, .treePart td, #divContainerBOM, #divContainerRSR{background-color:#E0E0E0; color:#000000;}
+.headerNst{background-color:#B0B0B0; color:#000000; font-size: 13px;}
+.divpad{font-size: 13px;}
+a.fit3d, a.fit3d:hover, a.fit3d:visited, a.show2d, a.show2d:hover, a.show2d:visited, a.show2dxref, a.show2dxref:hover, a.show2dxref:visited{color:#000000;}
+.cellnormal{}
+.alert-message-type-custom {
+    background-color: #808080;
+}
+.alert-message-caption {
+    font-size: 1.1em;
+}
+.alert-message-frame {
+    border-color: #FFFFFF !important;
+    color: #000000;
+    background-color: #FFFFFF !important;
+    font-size: 1em;;
+}
+</style><script language="javascript">
+var xsl_version = 1;
+var propSceneName = "RGB.wrl";
+var interactivityXml = "RGB.interactivity.xml";
+
+var propBackground3DColor = "#FFFFFF";
+var propTableColor = "#000000";
+var propTableBackgroundColor = "#FFFFFF";
+var propTableSelectedColor = "#000000";
+var propTableSelectedBackgroundColor = "#FFFFA0";
+
+var propMessageBodyColor = "#FFFFFF";
+var propMessageBodyBackgroundColor = "#808080";
+var propMessageTextAreaColor = "#000000";
+var propMessageTextAreaBackgroundColor = "#FFFFFF";
+
+var propHideActions = false;
+var propShowSubsteps = false;
+var propAutoNumbering = true;
+var propHihlightParents = true;
+var propHihlightNumbers = true;
+
+var propMuteSound = false;
+var propShowMuteSoundCheckBox = false;
+var propIsActiveFocus = true;
+var propIsMessageboxEnabled = false;
+var prop3DFrameSize = 60;
+var prop3DFramePosition = "Right";
+
+var propBOMStyle = "0";
+
+var specID = "RAPID_WORK_INSTRUCTIONS";
+var resFolder = "res_RAPID_WORK_INSTRUCTIONS/";
+var forceDirectX = true;
+var helpFile = "ru/help.html";
+var propUpRight = false;
+var skinID = "{7F82003E-34AE-4F5A-9470-4891DC8FDFCB}";
+var smoothcontrol_flag = true;
+var axis_flag = true;
+var vcr_flag = false;
+var zoom_flag = false;
+var isShowNavigationBar = false;
+var warningbox_checked = true;
+var pmibox_checked = true;
+
+var exporterVersion = "10.0.0.459 (64-bit)";
+
+var iLoadingMessage = "Загрузка...";
+
+var iWarningErrorOnVRMLLoading = "Ошибка загрузки VRML файла.";
+var iWarningUnsupportedFile = "Error: The specified file cannot be identified as a supported type.";
+
+var iWarningIsoViewNotFound = "IsoView ActiveX компонент не найден в реестре.";
+var iWarningIsoViewLoadingError = "Ошибка 2D Viewer - Не удалось загрузить файл:";
+var iWarningNoAppropriateViewerInstalled = "Не удается показать файл данного типа. Не установлен соответствующий вьюер.";
+
+var iContextMenuCortonaProperties = "Свойства 3D-окна";
+var iContextMenuAbout = "О программе";
+
+var iCaptionCortonaNotFound = "Не удалось загрузить Cortona3D Viewer.<br>Пожалуйста, убедитесь, что плагин <a href=\"http://www.cortona3d.com/ru/cortona3d-viewer-download\" target=\"_blank\">Cortona3D Viewer</a> установлен, и его запуск разрешен в браузере.<br><a href=\"http://www.cortona3d.com/allow-plugin\" target=\"_blank\">Настройка плагинов в браузере</a>.";
+var iWarningCortonaOldVersion = "На вашем компьютере установлена устаревшая версия Cortona3D Viewer, что не позволяет воспроизводить трехмерные сцены. Установите последнюю версию Cortona3D Viewer.";
+
+var iCaptionRapid2DViewerNotFound = "Не удалось загрузить Cortona2D Viewer.<br>Пожалуйста, убедитесь, что плагин <a href=\"http://www.cortona3d.com/ru/cortona2d-viewer-download\" target=\"_blank\">Cortona2D Viewer</a> установлен, и его запуск разрешен в браузере.<br><a href=\"http://www.cortona3d.com/allow-plugin\" target=\"_blank\">Настройка плагинов в браузере</a>.";
+
+var iMessageCloseButton = "Закрыть";
+
+var TXT_ABOUT_DOCUMENT = "Документ, версия:";
+var TXT_ABOUT_CORTONA = "3D viewer, версия:";
+var TXT_ABOUT_CGM = "2D viewer, версия:";
+
+var TXT_CMENU_VIEWER2D_BESTFIT = "Подогнать по размеру";
+var TXT_CMENU_VIEWER2D_ZOOMIN = "Увеличить";
+var TXT_CMENU_VIEWER2D_ZOOMOUT = "Уменьшить";
+
+var iShowFPS = "Показать FPS";   
+var iHideFPS = "Скрыть FPS";   
+var iGenericErrorMessage = "Произошла ошибка. Смотрите описание возможных причин проблемы и способов их решения на [этой странице|http://support.cortona3d.com/viewing-publications].";
+var iCortonaOldVersion = "";
+var iViewerUnavailable = "Viewer недоступен";
+
+var iMsgInspect = "Требуется осмотр.";
+var iInspectPrefix = "Осмотренно: ";
+var iSignOffPrefix = "Завершено: ";
+
+var eventsArray = new Array();
+
+var procId = "step91f79faee1c4d42a60d5508fe88790da";
+var steps_list = ["r6c77f740-cbdc-409e-9dda-f598e4163f2d"];
+var items_list = ["r6c77f740-cbdc-409e-9dda-f598e4163f2d"];
+var actions_list = [["r35f26173-a8aa-4310-b8af-f01157c043f8", 0],["r1c9338ad-d872-45ee-b212-36ed617bd808", 0],["r683dc84f-f72f-4086-b92b-236065ab4b38", 0],["rcc8a4b9b-acfb-4894-a068-001809808089", 0],["rd6908c36-8d2f-4958-bffc-6f608d5d02d7", 0],["r16ae7164-40a6-49f2-bfb3-6ef28097d457", 0],["r49d944f2-f448-400c-94c2-1e675f846f52", 0],["r7e7eea8d-02e2-47e8-8d9d-f8af5968a13a", 0]];
+
+var imgArray = [[]];
+var prtArray = [["0.1", "0.2", "0.3.2", "0.3.3", "0.3.4", "0.3.5", "0.3.6", "0.3.7"]];
+var inspArray = [false];
+
+
+var pmiArray = [];
+var docItems = [
+{parent:"",ind:0,node:"Контроллер_wrl_1",objectID:"1653252501184",docID:"0",tooltip:"Объект: Устройство полностью<br>Номер: <invalid item>"},
+{parent:"Контроллер_wrl_1",ind:1,node:"Нижняя_панель_f",objectID:"1653252497424",docID:"0.1",tooltip:"Объект: Нижняя панель корпуса<br>Номер: <invalid item>"},
+{parent:"Контроллер_wrl_1",ind:1,node:"Крышка_b",objectID:"1653252498384",docID:"0.2",tooltip:"Объект: Крышка корпуса<br>Номер: <invalid item>"},
+{parent:"Контроллер_wrl_1",ind:1,node:"Плата_29",objectID:"1653265006272",docID:"0.3",tooltip:"Объект: Печатная плата<br>Номер: <invalid item>"},
+{parent:"Плата_29",ind:2,node:"Текстолит_19",objectID:"1653252498144",docID:"0.3.1",tooltip:"Объект: Текстолит<br>Номер: <invalid item>"},
+{parent:"Плата_29",ind:2,node:"(U1)_Микроконтроллер_8-Бит__PIC16F628A-I/P_e",objectID:"1653252499664",docID:"0.3.2",tooltip:"Объект: PIC16F628A-I/P, Микроконтроллер 8-Бит, PIC, 20МГц, 3.5КБ (2Кx14) Flash, 16 I/O [DIP-18]<br>Номер: U1"},
+{parent:"Плата_29",ind:2,node:"(X1)_Кварцевый_резонатор__NX3225SA-20MHZ_4",objectID:"1653252496784",docID:"0.3.3",tooltip:"Объект: NX3225SA-20MHZ, 20 МГц, 20/20ppm, 16пФ, -40...+85°C, SMD 3.2*2.5*0.55мм, Кварцевый резонатор<br>Номер: X1"},
+{parent:"Плата_29",ind:2,node:"SW3_a",objectID:"1653252497264",docID:"0.3.4",tooltip:"Объект: DS1040-03RN, DIP переключатель 3pin<br>Номер: SWx (SBx)"},
+{parent:"Плата_29",ind:2,node:"SW2_9",objectID:"1653252501424",docID:"0.3.5",tooltip:"Объект: DS1040-02RN, DIP переключатель 2pin<br>Номер: SVx (SAx)"},
+{parent:"Плата_29",ind:2,node:"Конденсаторы_2a",objectID:"1653304440096",docID:"0.3.6",tooltip:"Объект: К10-17Б имп. 22пФ NPO,5%,0805, Конденсатор керамический выводной<br>Номер: Cx"},
+{parent:"Конденсаторы_2a",ind:3,node:"(C1)_Конденсатор_керамический_выводной__К10-17Б_21",objectID:"1653204075536",docID:"0.3.6.1",tooltip:"Объект: <br>Номер: C1"},
+{parent:"Конденсаторы_2a",ind:3,node:"(C2)_Конденсатор_керамический_выводной__К10-17Б_22",objectID:"1653204084736",docID:"0.3.6.2",tooltip:"Объект: <br>Номер: C2"},
+{parent:"Плата_29",ind:2,node:"Резисторы_2b",objectID:"1653304447296",docID:"0.3.7",tooltip:"Объект: 0.25Вт 1206 4.7 кОм, 1%, Чип резистор (SMD)<br>Номер: Rx"},
+{parent:"Резисторы_2b",ind:3,node:"(R1)_Чип_резистор__4_7_кОм_23",objectID:"1653204087616",docID:"0.3.7.1",tooltip:"Объект: <br>Номер: R1"},
+{parent:"Резисторы_2b",ind:3,node:"(R2)_Чип_резистор__4_7_кОм_24",objectID:"1653204074576",docID:"0.3.7.2",tooltip:"Объект: <br>Номер: R2"},
+{parent:"Резисторы_2b",ind:3,node:"(R3)_Чип_резистор__4_7_кОм_25",objectID:"1653204076736",docID:"0.3.7.3",tooltip:"Объект: <br>Номер: R3"},
+{parent:"Резисторы_2b",ind:3,node:"(R4)_Чип_резистор__4_7_кОм_26",objectID:"1653204081936",docID:"0.3.7.4",tooltip:"Объект: <br>Номер: R4"},
+{parent:"Резисторы_2b",ind:3,node:"(R5)_Чип_резистор__4_7_кОм_27",objectID:"1653204086416",docID:"0.3.7.5",tooltip:"Объект: <br>Номер: R5"},
+{parent:"Резисторы_2b",ind:3,node:"(R6)_Чип_резистор__4_7_кОм_28",objectID:"1653204026416",docID:"0.3.7.6",tooltip:"Объект: <br>Номер: R6"}];
+
+var graphics_list = [];
+
+var isBlocked = true;
+
+var usePlugins = true;
+
+var totalMemory = 128;  
+var showFPSSelector = false;  
+var forceFPSIndicator = false;
+
+
+function on_t(n) {
+	if(!isBlocked) on_tab_click(n);
+}
+function on_at(id) {}
+function on_pad(nm){
+  var padArray = ['prq', 'bom', 'rsr', 'nst', 'doc'];
+  for(var i=0; i<padArray.length; i++){
+  	document.getElementById("tab_"+padArray[i]).className = (nm==padArray[i])? "htab": "tab";
+  	document.getElementById("pad_"+padArray[i]).style.display = (nm==padArray[i])? "": "none";
+  }
+}
+function hfit3D() { cortona3d.app.hfit3D.apply(this, arguments); }
+function fit3D() { cortona3d.app.fit3D.apply(this, arguments); }
+function on_over() { cortona3d.app.on_over.apply(this, arguments); }
+function on_out() { cortona3d.app.on_out.apply(this, arguments); }
+function show2D() { cortona3d.app.show2D.apply(this, arguments); }
+function show3D() { cortona3d.app.show3D.apply(this, arguments); }
+function processCh() { cortona3d.app.processCh.apply(this, arguments); }
+function showPMI() { cortona3d.app.showPMI.apply(this, arguments); }
+function setRWIMode() { cortona3d.app.setRWIMode.apply(this, arguments); }
+function play() { cortona3d.app.play.apply(this, arguments); }
+function pause() { cortona3d.app.pause.apply(this, arguments); }
+function stop() { cortona3d.app.stop.apply(this, arguments); }
+function setFreezeVP() { cortona3d.app.setFreezeVP.apply(this, arguments); }
+function setSignOff() { cortona3d.app.setSignOff.apply(this, arguments); }
+function setSpeedRatio() { cortona3d.app.setSpeedRatio.apply(this, arguments); }
+function showHelp() { cortona3d.app.showHelp.apply(this, arguments); }
+function on_tab_click() { cortona3d.app.on_tab_click.apply(this, arguments); }
+</script><script language="javascript" src="res_RAPID_WORK_INSTRUCTIONS/rapid_work_instructions.js"></script></head>
+<body>
+<div class="panel" style="width:40%; left:0;">
+<div id="rwiHeader">
+<table id="tblRwiHeader" style="width:100%; height:100%">
+<tr><td colspan="2"><span class="mtdnm">Код работы: </span></td></tr>
+<tr><td colspan="2"><span class="mtdnm">Заголовок: </span>RGB</td></tr>
+<tr><td colspan="2"><span class="mtdnm">Описание: </span></td></tr>
+<tr><td width="50%"><span class="mtdnm">Тип работы: </span></td>
+<td width="50%"><span class="mtdnm">Роль: </span></td></tr>
+<tr><td width="50%"><span class="mtdnm">Ожидаемое время: </span></td>
+<td width="50%"><span class="mtdnm">Произв. модуль: </span></td></tr>
+<tr><td width="50%"><span class="mtdnm">Предыдущая работа: </span></td>
+<td width="50%"><span class="mtdnm">Следующая работа: </span></td></tr>
+</table>
+</div>
+<div id="pager">
+<div id="divtabs"><span id="tab_prq" class="htab" onclick="on_pad('prq')" title="Предусловия"><span class="tbtxt">Предусловия</span></span><span id="tab_bom" class="tab" onclick="on_pad('bom')" title="Спецификация"><span class="tbtxt">Спецификация</span></span><span id="tab_rsr" class="tab" onclick="on_pad('rsr')" title=""><span class="tbtxt">Ресурсы</span></span><span id="tab_nst" class="tab" onclick="on_pad('nst')" title="Инструкции"><span class="tbtxt">Инструкции</span></span><span id="tab_doc" class="tab" onclick="on_pad('doc')" title="Документ"><span class="tbtxt">Документ</span></span></div>
+<div id="procedureTD">
+<div class="divpad" id="pad_prq"><p class="para"></p>
+</div>
+<div class="divpad" id="pad_bom" style="display:none;">
+<div id="divContainerBOM">
+</div>
+<div id="divPartsList">
+<div id="itm1653252501184">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span>Устройство полностью</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653252497424">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span>Нижняя панель корпуса</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653252498384">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span>Крышка корпуса</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653265006272">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span>Печатная плата</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653252498144">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span>Текстолит</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653252499664">
+<div><span class="bmdnm">Обозначение: </span>U1</div>
+<div><span class="bmdnm">Описание: </span>PIC16F628A-I/P, Микроконтроллер 8-Бит, PIC, 20МГц, 3.5КБ (2Кx14) Flash, 16 I/O [DIP-18]</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span>PIC16F628A-I/P</div>
+</div>
+<div id="itm1653252496784">
+<div><span class="bmdnm">Обозначение: </span>X1</div>
+<div><span class="bmdnm">Описание: </span>NX3225SA-20MHZ, 20 МГц, 20/20ppm, 16пФ, -40...+85°C, SMD 3.2*2.5*0.55мм, Кварцевый резонатор</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span>NX3225SA-20MHZ</div>
+</div>
+<div id="itm1653252497264">
+<div><span class="bmdnm">Обозначение: </span>SWx (SBx)</div>
+<div><span class="bmdnm">Описание: </span>DS1040-03RN, DIP переключатель 3pin</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span>DS1040-03RN</div>
+</div>
+<div id="itm1653252501424">
+<div><span class="bmdnm">Обозначение: </span>SVx (SAx)</div>
+<div><span class="bmdnm">Описание: </span>DS1040-02RN, DIP переключатель 2pin</div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span>DS1040-02RN</div>
+</div>
+<div id="itm1653304440096">
+<div><span class="bmdnm">Обозначение: </span>Cx</div>
+<div><span class="bmdnm">Описание: </span>К10-17Б имп. 22пФ NPO,5%,0805, Конденсатор керамический выводной</div>
+<div><span class="bmdnm">Кол-во: </span>2</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span>К10-17Б</div>
+</div>
+<div id="itm1653204075536">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span></div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653204084736">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span></div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653304447296">
+<div><span class="bmdnm">Обозначение: </span>Rx</div>
+<div><span class="bmdnm">Описание: </span>0.25Вт 1206 4.7 кОм, 1%, Чип резистор (SMD)</div>
+<div><span class="bmdnm">Кол-во: </span>6</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span>1206</div>
+</div>
+<div id="itm1653204087616">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span></div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653204074576">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span></div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653204076736">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span></div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653204081936">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span></div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653204086416">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span></div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+<div id="itm1653204026416">
+<div><span class="bmdnm">Обозначение: </span></div>
+<div><span class="bmdnm">Описание: </span></div>
+<div><span class="bmdnm">Кол-во: </span>1</div>
+<div><span class="bmdnm">Альтернативное обозначение: </span></div>
+</div>
+</div>
+</div>
+<div class="divpad" id="pad_rsr" style="display:none;">
+<div id="divContainerRSR">
+<table id="tblRSR" class="tblPart">
+</table>
+</div>
+</div>
+<div class="divpad" id="pad_nst" style="display:none;">
+<table id="instrTable">
+<tr><td class="headerNst">Текущая задача</td></tr>
+<tr><td height="35%" id="currentStep"><div id="divCurStep"></div></td></tr>
+<tr><td class="headerNst">Необходимые детали</td></tr>
+<tr><td height="30%" id="currentParts"><div id="divCurParts"></div></td></tr>
+<tr><td class="headerNst">Необходимые ресурсы</td></tr>
+<tr><td height="30%" id="currentRes"><div id="divCurRes"></div></td></tr>
+</table>
+</div>
+<div class="divpad" id="pad_doc" style="display:none;">
+<div id="divContainer">
+<table id="prcTable">
+<tr class="cellnormal" id="s_0" onClick="on_t(0);">
+<td class="cnmbr">1</td>
+<td class="cntnt"><span class="hidden" id="fx_fx_0"></span><div class="textStep"><h4 class="htitle">Сборка</h4>
+<p class="para">Установить Конденсаторы.</p>
+<p class="para">Установить (X1) Кварцевый резонатор, NX3225SA-20MHZ.</p>
+<p class="para">Установить (U1) Микроконтроллер 8-Бит, PIC16F628A-I/P.</p>
+<p class="para">Установить Резисторы.</p>
+<p class="para">Установить SW2.</p>
+<p class="para">Установить SW3.</p>
+<p class="para">Установить Крышка.</p>
+<p class="para"><a href="#" class="fit3d" onclick="hfit3D('0.1'); return false;">Нижняя панель корпуса</a>  <a href="#" class="fit3d" onclick="hfit3D('0.2'); return false;">Крышка корпуса</a>  <a href="#" class="fit3d" onclick="hfit3D('0.3.2'); return false;">PIC16F628A-I/P, Микроконтроллер 8-Бит, PIC, 20МГц, 3.5КБ (2Кx14) Flash, 16 I/O [DIP-18]</a>  <a href="#" class="fit3d" onclick="hfit3D('0.3.3'); return false;">NX3225SA-20MHZ, 20 МГц, 20/20ppm, 16пФ, -40...+85°C, SMD 3.2*2.5*0.55мм, Кварцевый резонатор</a>  <a href="#" class="fit3d" onclick="hfit3D('0.3.4'); return false;">DS1040-03RN, DIP переключатель 3pin</a>  <a href="#" class="fit3d" onclick="hfit3D('0.3.5'); return false;">DS1040-02RN, DIP переключатель 2pin</a>  <a href="#" class="fit3d" onclick="hfit3D('0.3.6'); return false;">К10-17Б имп. 22пФ NPO,5%,0805, Конденсатор керамический выводной</a>  <a href="#" class="fit3d" onclick="hfit3D('0.3.7'); return false;">0.25Вт 1206 4.7 кОм, 1%, Чип резистор (SMD)</a></p>
+</div><span class="hidden" id="in_sp_0"></span></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="modeFrame"><span id="modeselectorspan"><label id="previewmode_label" title="Режим просмотра" for="previewmode" class="captions">Режим просмотра</label><input type="radio" name="mode_selector" id="previewmode" title="Режим просмотра" value="0.5" disabled onClick="setRWIMode(0);" checked="true">  <label id="jobmode_label" title="Режим задачи" for="jobmode" class="captions">Режим задачи</label><input type="radio" name="mode_selector" id="jobmode" title="Режим задачи" onClick="setRWIMode(1);" disabled value="1"> </span></div>
+</div>
+<div class="panel" style="width:60%; right:0;">
+<table id="cortonaFrame" style="width:100%; height:100%">
+<tr style="height:100%"><td colspan="2" id="cortona_holder">
+<div id="cContainer" class="app-container">
+<div class="app-scene" id="scene2d"></div>
+<div class="app-scene" id="scene3d"></div>
+</div>
+</td></tr>
+<tr id="control_bar"><td height="10" align="left" valign="middle" nowrap="true"><span id="cntr2D" style="display:none;"><input id="btn_3D" type="button" title="3D" value="3D" class="btn_control" onClick="show3D();"></span><span id="cntr3D1"><input id="btn_play" type="button" title="Воспроизведение" value="Воспр." disabled class="btn_control" onClick="play();"><input id="btn_pause" type="button" title="Пауза" value="Пауза" disabled class="btn_control" onClick="pause();"><input id="btn_stop" type="button" title="Стоп" value="Стоп" disabled class="btn_control" onClick="stop();"></span><input id="btn_signoff" type="button" title="Отметить как выполненный" value="Завершить" disabled class="btn_control" onClick="setSignOff();">  </td>
+<td height="10" align="right" class="captions"><span id="cntr3D2"><span id="pmispan" style=""><input type="checkbox" title="PMI" class="FontSz" name="pmibox" id="pmibox" disabled value="" onClick="showPMI(this.checked);"><label id="pmi_label" title="PMI" for="pmibox">PMI</label>  </span><span id="messagesspan" style=""><input type="checkbox" title="Сообщения" class="FontSz" name="warningbox" id="warningbox" disabled value=""><label id="warning_label" title="Сообщения" for="warningbox">Сообщения</label>  </span><span id="freezeVPSpan"><nobr><input type="checkbox" class="checkbox_control" name="vpfreeze" id="vpfreeze" disabled checked="false" value="" onClick="setFreezeVP(this.checked);"><label id="vpfreeze_label" class="captions" for="vpfreeze">Зафиксировать вид</label></nobr>
+	  
+	</span><span id="speedspan" style=""><span id="speed_label" title="">Скорость:</span><input type="radio" name="speed_ratio_selector" id="speed1" title="" value="0.5" disabled onClick="setSpeedRatio(0.5);"><label id="speed1_label" title="" for="speed1">x1/2</label><input type="radio" name="speed_ratio_selector" id="speed2" title="" onClick="setSpeedRatio(1);" disabled value="1" checked="true"><label id="speed2_label" title="" for="speed2">x1</label><input type="radio" name="speed_ratio_selector" title="" onClick="setSpeedRatio(2);" id="speed3" disabled value="2"><label id="speed3_label" title="" for="speed3">x2</label> </span></span><input id="btn_help" title="Справка" type="button" value="?" class="btn_control" onClick="showHelp();"></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

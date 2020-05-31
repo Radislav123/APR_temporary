@@ -1,0 +1,2 @@
+Схему брали отсюда [http://www.joyta.ru/4376-sxema-rgb-kontrollera-dlya-svetodiodnoj-lenty-na-pic16f628-svoimi-rukami/].
+Там же предлагается прошивка для контроллера [http://www.joyta.ru/?dl_id=83].

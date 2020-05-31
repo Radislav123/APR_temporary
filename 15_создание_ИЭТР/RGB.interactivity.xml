@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by VME v.10.0.0.0 (build 10.0.0.459 (64-bit))-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+	<SimulationInformation>
+		<ExporterVersionNumber>10.0.0.459 (64-bit)</ExporterVersionNumber>
+		<ModificationDate>05/31/20</ModificationDate>
+		<SpecID>RAPID_WORK_INSTRUCTIONS</SpecID>
+		<SpecVersion>3.2</SpecVersion>
+		<SpecLang>ru</SpecLang>
+		<XMLFileName>RGB</XMLFileName>
+		<FileName>RGB</FileName>
+		<DocumentFile>RGB.xml</DocumentFile>
+		<Options>
+			<Value name="3DFramePosition">Right</Value>
+			<Value name="3DFrameSize">60</Value>
+			<Value name="ShowSmoothControl">Yes</Value>
+			<Value name="ShowSpeedSelection">Yes</Value>
+			<Value name="ShowMessagesBox">Yes</Value>
+			<Value name="ShowFreezeCheckbox">Yes</Value>
+			<Value name="ShowPMIBox">Yes</Value>
+			<Value name="EnablePMI">Yes</Value>
+			<Value name="EnableWarnings">Yes</Value>
+			<Value name="AutoNumbering">Yes</Value>
+			<Value name="TableFontSize">Medium</Value>
+			<Value name="UpRight">No</Value>
+			<Value name="3DBackgroundColor">#FFFFFF</Value>
+			<Value name="ToolbarColor">#FFFFFF</Value>
+			<Value name="ToolbarBackgroundColor">#8080C0</Value>
+			<Value name="TableColor">#000000</Value>
+			<Value name="TableBackgroundColor">#FFFFFF</Value>
+			<Value name="TableSelectedColor">#000000</Value>
+			<Value name="TableSelectedBackgroundColor">#FFFFA0</Value>
+			<Value name="TableHeaderColor">#000000</Value>
+			<Value name="TableHeaderBackgroundColor">#FFFFFF</Value>
+			<Value name="TableBorderColor">#000000</Value>
+			<Value name="RemoveSpace">No</Value>
+			<Value name="SimplifyFloats">No</Value>
+			<Value name="CoordinateResolution">0</Value>
+			<Value name="MessageBodyColor">#FFFFFF</Value>
+			<Value name="MessageBodyBackgroundColor">#808080</Value>
+			<Value name="MessageTextAreaColor">#000000</Value>
+			<Value name="MessageTextAreaBackgroundColor">#FFFFFF</Value>
+			<Value name="MessageTextAreaFontSize">Medium</Value>
+			<Value name="PadsTextColor">#000000</Value>
+			<Value name="PadsBackgroundColor">#E0E0E0</Value>
+			<Value name="SubHeadersTextColor">#000000</Value>
+			<Value name="SubHeadersBackgroundColor">#B0B0B0</Value>
+			<Value name="BOMStyle">0</Value>
+			<Value name="TooltipFormat">Объект: %[_6A7337C8022746BA8C02F29B0FC2257F]
+Номер: %[_F0CF006A8AC54725A80D5DC19077CD1D]</Value>
+			<Value name="VRMLProfile">1</Value>
+			<Value name="ForceDirectX">Yes</Value>
+			<Value name="UsePlugins">Yes</Value>
+			<Value name="PublicPath"/>
+			<Value name="TotalMemory">128</Value>
+		</Options>
+		<metadata/>
+	</SimulationInformation>
+	<Simulation id="step91f79faee1c4d42a60d5508fe88790da">
+		<Description>RGB</Description>
+		<Step id="r6c77f740-cbdc-409e-9dda-f598e4163f2d">
+			<Description>Сборка</Description>
+			<Substep id="r35f26173-a8aa-4310-b8af-f01157c043f8">
+				<Description>Установить Конденсаторы</Description>
+			</Substep>
+			<Substep id="r1c9338ad-d872-45ee-b212-36ed617bd808">
+				<Description>Установить (X1) Кварцевый резонатор, NX3225SA-20MHZ</Description>
+			</Substep>
+			<Substep id="r683dc84f-f72f-4086-b92b-236065ab4b38">
+				<Description>Установить (U1) Микроконтроллер 8-Бит, PIC16F628A-I/P</Description>
+			</Substep>
+			<Substep id="rcc8a4b9b-acfb-4894-a068-001809808089">
+				<Description>Установить Резисторы</Description>
+			</Substep>
+			<Substep id="rd6908c36-8d2f-4958-bffc-6f608d5d02d7">
+				<Description>Установить SW2</Description>
+			</Substep>
+			<Substep id="r16ae7164-40a6-49f2-bfb3-6ef28097d457">
+				<Description>Установить SW3</Description>
+			</Substep>
+			<Substep id="r49d944f2-f448-400c-94c2-1e675f846f52">
+				<Description>Показать Нижняя панель</Description>
+			</Substep>
+			<Substep id="r7e7eea8d-02e2-47e8-8d9d-f8af5968a13a">
+				<Description>Установить Крышка</Description>
+			</Substep>
+		</Step>
+	</Simulation>
+	<Procedure id="step91f79faee1c4d42a60d5508fe88790da">
+		<Item id="r6c77f740-cbdc-409e-9dda-f598e4163f2d">
+			<Action id="r35f26173-a8aa-4310-b8af-f01157c043f8">
+				<metadata/>
+			</Action>
+			<Action id="r1c9338ad-d872-45ee-b212-36ed617bd808">
+				<metadata/>
+			</Action>
+			<Action id="r683dc84f-f72f-4086-b92b-236065ab4b38">
+				<metadata/>
+			</Action>
+			<Action id="rcc8a4b9b-acfb-4894-a068-001809808089">
+				<metadata/>
+			</Action>
+			<Action id="rd6908c36-8d2f-4958-bffc-6f608d5d02d7">
+				<metadata/>
+			</Action>
+			<Action id="r16ae7164-40a6-49f2-bfb3-6ef28097d457">
+				<metadata/>
+			</Action>
+			<Action id="r49d944f2-f448-400c-94c2-1e675f846f52">
+				<metadata/>
+			</Action>
+			<Action id="r7e7eea8d-02e2-47e8-8d9d-f8af5968a13a">
+				<metadata/>
+			</Action>
+			<metadata/>
+		</Item>
+	</Procedure>
+	<DocItems>
+		<DocItem id="Контроллер_wrl_1" objectID="1653252501184">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0</value>
+				<value name="DocID" decl-id="DocID">0</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Устройство полностью</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Устройство полностью
+Номер: <invalid item>]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Нижняя_панель_f" objectID="1653252497424">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0</value>
+				<value name="DocID" decl-id="DocID">0.1</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Нижняя панель корпуса</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Нижняя панель корпуса
+Номер: <invalid item>]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Крышка_b" objectID="1653252498384">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0</value>
+				<value name="DocID" decl-id="DocID">0.2</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Крышка корпуса</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Крышка корпуса
+Номер: <invalid item>]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Плата_29" objectID="1653265006272">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Печатная плата</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Печатная плата
+Номер: <invalid item>]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Текстолит_19" objectID="1653252498144">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0</value>
+				<value name="DocID" decl-id="DocID">0.3.1</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Текстолит</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Текстолит
+Номер: <invalid item>]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(U1)_Микроконтроллер_8-Бит__PIC16F628A-I/P_e" objectID="1653252499664">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0</value>
+				<value name="DocID" decl-id="DocID">0.3.2</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">PIC16F628A-I/P, Микроконтроллер 8-Бит, PIC, 20МГц, 3.5КБ (2Кx14) Flash, 16 I/O [DIP-18]</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">U1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">PIC16F628A-I/P</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: PIC16F628A-I/P, Микроконтроллер 8-Бит, PIC, 20МГц, 3.5КБ (2Кx14) Flash, 16 I/O [DIP-18]
+Номер: U1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(X1)_Кварцевый_резонатор__NX3225SA-20MHZ_4" objectID="1653252496784">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">NX3225SA-20MHZ, 20 МГц, 20/20ppm, 16пФ, -40...+85°C, SMD 3.2*2.5*0.55мм, Кварцевый резонатор</value>
+				<value name="DocID" decl-id="DocID">0.3.3</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">NX3225SA-20MHZ</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">X1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: NX3225SA-20MHZ, 20 МГц, 20/20ppm, 16пФ, -40...+85°C, SMD 3.2*2.5*0.55мм, Кварцевый резонатор
+Номер: X1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="SW3_a" objectID="1653252497264">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">DS1040-03RN, DIP переключатель 3pin</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">SWx (SBx)</value>
+				<value name="DocID" decl-id="DocID">0.3.4</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">DS1040-03RN</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: DS1040-03RN, DIP переключатель 3pin
+Номер: SWx (SBx)]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="SW2_9" objectID="1653252501424">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0</value>
+				<value name="DocID" decl-id="DocID">0.3.5</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">DS1040-02RN, DIP переключатель 2pin</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">DS1040-02RN</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">SVx (SAx)</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: DS1040-02RN, DIP переключатель 2pin
+Номер: SVx (SAx)]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Конденсаторы_2a" objectID="1653304440096">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3.6</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">К10-17Б имп. 22пФ NPO,5%,0805, Конденсатор керамический выводной</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">2</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">К10-17Б</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">Cx</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: К10-17Б имп. 22пФ NPO,5%,0805, Конденсатор керамический выводной
+Номер: Cx]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(C1)_Конденсатор_керамический_выводной__К10-17Б_21" objectID="1653204075536">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3.6.1</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F"/>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">C1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 
+Номер: C1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(C2)_Конденсатор_керамический_выводной__К10-17Б_22" objectID="1653204084736">
+			<metadata>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F"/>
+				<value name="DocID" decl-id="DocID">0.3.6.2</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">C2</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 
+Номер: C2]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Резисторы_2b" objectID="1653304447296">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3.7</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">0.25Вт 1206 4.7 кОм, 1%, Чип резистор (SMD)</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">6</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">1206</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">Rx</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 0.25Вт 1206 4.7 кОм, 1%, Чип резистор (SMD)
+Номер: Rx]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(R1)_Чип_резистор__4_7_кОм_23" objectID="1653204087616">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3.7.1</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F"/>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 
+Номер: R1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(R2)_Чип_резистор__4_7_кОм_24" objectID="1653204074576">
+			<metadata>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F"/>
+				<value name="DocID" decl-id="DocID">0.3.7.2</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R2</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 
+Номер: R2]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(R3)_Чип_резистор__4_7_кОм_25" objectID="1653204076736">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3.7.3</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F"/>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R3</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 
+Номер: R3]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(R4)_Чип_резистор__4_7_кОм_26" objectID="1653204081936">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3.7.4</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F"/>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R4</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 
+Номер: R4]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(R5)_Чип_резистор__4_7_кОм_27" objectID="1653204086416">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3.7.5</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F"/>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R5</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 
+Номер: R5]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="(R6)_Чип_резистор__4_7_кОм_28" objectID="1653204026416">
+			<metadata>
+				<value name="DocID" decl-id="DocID">0.3.7.6</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F"/>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R6</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 
+Номер: R6]]>
+			</tooltip>
+		</DocItem>
+	</DocItems>
+	<Resources/>
+</SimulationInteractivity>
